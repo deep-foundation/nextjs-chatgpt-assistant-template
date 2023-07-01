@@ -407,7 +407,7 @@ export const Content = React.memo<any>(() => {
   return (<VStack position='relative' width='100vw' height='100vh'>
       <BackgroundProbableQuestions />
       <Box sx={{color: 'antiquewhite', zIndex: 1}}>
-        <Heading as='h1' sx={{color: 'antiquewhite', zIndex: 1}}>Diamond</Heading>
+        <Heading as='h1' sx={{color: 'antiquewhite', zIndex: 1}}>Store name</Heading>
       </Box>
       <RecordButton isProcessing={isProcessing} isRecording={isRecording} handleClick={handleClick} />
       <ScreenChat deep={deep} newConversationLinkId={newConversationLinkId} handleCloseChat={handleCloseChat}/>
