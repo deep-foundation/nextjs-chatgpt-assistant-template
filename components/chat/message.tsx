@@ -81,7 +81,7 @@ export const Message = React.memo<any>(({
       width="calc(100% - 2.5rem)"
     > 
       <HStack w='100%' display='flex' alignItems='flex-end' spacing={2}>
-        {align === 'left' && <CreatureAvatar icon={<GiHemp />} bg='#306604' />}
+        {align === 'left' && <CreatureAvatar emoji='Cons'  bg='#306604' />}
         <Box {...flexDivProps} sx={{
           ...flexDivProps.style,
           width: 'calc(100% - 6rem)',
