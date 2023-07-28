@@ -64,10 +64,10 @@ export const ScreenChat = React.memo<any>(({ newConversationLinkId, deep, handle
       overflowY="scroll"
       height='30vh'
       width='100vw'
-      bg='#03001da8'
+      bg='#b0aeae'
       p={3}
-      _before={{ content: '""', position: 'absolute', top: 0, left: 0, width: 0, borderTop: '1.5rem solid #0c3b01', borderRight: '1.5rem solid transparent' }}
-      _after={{ content: '""', position: 'absolute', top: 0, right: 0, width: 0, borderTop: '1.5rem solid #0c3b01', borderLeft: '1.5rem solid transparent' }}
+      _before={{ content: '""', position: 'absolute', top: 0, left: 0, width: 0, borderTop: '1.5rem solid #400c6e', borderRight: '1.5rem solid transparent' }}
+      _after={{ content: '""', position: 'absolute', top: 0, right: 0, width: 0, borderTop: '1.5rem solid #400c6e', borderLeft: '1.5rem solid transparent' }}
       sx={{
         '& > *:not(:last-child)': {
           mb: '1rem',
