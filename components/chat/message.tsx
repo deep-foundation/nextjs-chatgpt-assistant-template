@@ -11,7 +11,7 @@ const CreatureAvatar = React.memo<any>(({
   src,
   size,
   icon,
-  bg = '#01fffa',
+  bg = '#c9c7c7',
   fontSizeEmoji = '1rem',
   fontSizeName = '1rem',
 }: {
@@ -63,7 +63,7 @@ export const Message = React.memo<any>(({
   text='Hello',
   align = 'left',
   arrow = align,
-  fill = align === 'right' ? '#deffee' : '#03001d',
+  fill = align === 'right' ? '#deffee' : '#c9c7c7',
   src,
   emoji='💀',
   name,
@@ -81,7 +81,7 @@ export const Message = React.memo<any>(({
       width="calc(100% - 2.5rem)"
     > 
       <HStack w='100%' display='flex' alignItems='flex-end' spacing={2}>
-        {align === 'left' && <CreatureAvatar emoji='Cons'  bg='#306604' />}
+        {align === 'left' && <CreatureAvatar emoji='Cons'  bg='#67349e' />}
         <Box {...flexDivProps} sx={{
           ...flexDivProps.style,
           width: 'calc(100% - 6rem)',
@@ -104,13 +104,13 @@ export const Message = React.memo<any>(({
             }}  
             {...messageDivProps} style={{
             ...messageDivProps.style,
-            backgroundColor: align === 'right' ? '#deffee' : '#334f1c',
+            backgroundColor: align === 'right' ? '#ffffff' : '#36105e',
           }}>
-              <Text fontSize='sm' color={arrow === 'right' ? '#334f1c' : '#deffee'}>
+              <Text fontSize='sm' color={arrow === 'right' ? '#36105e' : '#ffffff'}>
                 {text}
               </Text>
-            {align === 'left' && <BubbleArrowLeft fill='#334f1c' style={{position: 'absolute', left: -5, bottom: -1}} />}
-            {align === 'right' && <BubbleArrowRight fill='#deffee' style={{position: 'absolute', right: -9, bottom: 0}} />}
+            {align === 'left' && <BubbleArrowLeft fill='#36105e' style={{position: 'absolute', left: -5, bottom: -1}} />}
+            {align === 'right' && <BubbleArrowRight fill='#ffffff' style={{position: 'absolute', right: -9, bottom: 0}} />}
           </Box>
         </Box>
         {align === 'right' && <CreatureAvatar emoji='You' />}
