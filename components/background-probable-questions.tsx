@@ -10,7 +10,7 @@ export function BackgroundProbableQuestions() {
   };
 
   return (<Box sx={{
-        background: 'linear-gradient(0deg, #417100 0%, #0f4801 20%, #092a01 45%, #03001d 70%)',
+        background: 'linear-gradient(0deg, #a19d9d 0%, #c9c5c5 20%, #e6e3e3 45%, #adaaaa 70%)',
         width: '100%',
         height: '100%',
         position: 'absolute',
@@ -34,7 +34,7 @@ export function BackgroundProbableQuestions() {
               }
             },
             color: {
-              value: "#fff"
+              value: "#36105e"
             },
             shape: {
               character: {
@@ -85,7 +85,7 @@ export function BackgroundProbableQuestions() {
             line_linked: {
               enable: true,
               distance: 600,
-              color: "#ffffff",
+              color: "#36105e",
               opacity: 0.4,
               width: 2
             },
